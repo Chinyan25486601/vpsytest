@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    color: #576071;
+    font-size: 24px;
+    font-family: "微软雅黑", "黑体", Arial, Helvetica, sans-serif;
+}
+
+#app {
+    display: flex;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: hidden;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+}
